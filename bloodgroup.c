@@ -6,6 +6,7 @@ void main()
   do
   {
     printf("What is your Name? ");
+    printf("My name is Ton ");
     scanf("%s", Name);
     do
     {
