@@ -6,12 +6,17 @@ void main()
   do
   {
     printf("What is your Name? ");
+<<<<<<< HEAD
     printf("My name is TonMaii ");
 
     printf("What's about you?");
+=======
+    printf("My name is Tam ");
+>>>>>>> 63c0ea2404b60f8a0edfefd8da3458ec071de901
     scanf("%s", Name);
     do
     {
+      printf("Hi!!! ");
       printf("What is your blood group [A, B, AB, or O]? ");
       scanf("%s", G);
 

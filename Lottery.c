@@ -1,4 +1,4 @@
-#include <stdio.h>
+ #include <stdio.h>
 void main()
 {
   int WinLotteryNo[10] = {1522, 1711, 5515, 7233, 5614, 8876, 1215, 4232, 9155, 9995}; 
@@ -12,7 +12,7 @@ void main()
   scanf("%d", &YourLotteryNo); 
   while (YourLotteryNo != 0) 
   { 
-    won = 0; 
+    won = 1000; 
     for (i=0;i<N && !won; i++) 
     {
        if (YourLotteryNo == WinLotteryNo[i]) 
